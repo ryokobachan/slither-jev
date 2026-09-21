@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "targets_do_not_stop_play": true,
+  "score_per_minute_definition": "(latest or final native score - initial score) / elapsed seconds * 60",
+  "runs": [
+    {
+      "run": "jev-vercel-replay-19",
+      "result_available": true,
+      "result_read_error": null,
+      "decision_log": {
+        "exists": true,
+        "valid_rows": 389,
+        "invalid_lines": 0,
+        "partial_tail_ignored": 0
+      },
+      "episodes": [
+        {
+          "life": 1,
+          "status": "naturally_ended",
+          "initial_length": 10,
+          "initial_length_source": "result.episodes.initial_length",
+          "elapsed_seconds": 1019.99,
+          "elapsed_source": "result.episodes.seconds",
+          "score": 6155,
+          "score_source": "result.episodes.stats.final_length",
+          "score_gain": 6145,
+          "score_per_minute": 361.474,
+          "max_length": 6201,
+          "best_rank": 4,
+          "kills": 7,
+          "milestones": {
+            "100": {
+              "reached": true,
+              "target_seconds": 60,
+              "first_observed_seconds": 42.146,
+              "target_met_as_observed": true
+            },
+            "1000": {
+              "reached": true,
+              "target_seconds": 180,
+              "first_observed_seconds": 271.134,
+              "target_met_as_observed": false
+            },
+            "5000": {
+              "reached": true,
+              "target_seconds": 600,
+              "first_observed_seconds": 663.781,
+              "target_met_as_observed": false
+            },
+            "10000": {
+              "reached": false,
+              "target_seconds": 900,
+              "first_observed_seconds": null,
+              "target_met_as_observed": false
+            }
+          },
+          "first_verified_top10_seconds": 697.997,
+          "notes": [
+            "Milestones and Top 10 use the first confirming observation on the run clock; actual crossings may occur between samples."
+          ]
+        }
+      ]
+    },
+    {
+      "run": "jev-vercel-replay-20",
+      "result_available": true,
+      "result_read_error": null,
+      "decision_log": {
+        "exists": true,
+        "valid_rows": 307,
+        "invalid_lines": 0,
+        "partial_tail_ignored": 0
+      },
+      "episodes": [
+        {
+          "life": 1,
+          "status": "naturally_ended",
+          "initial_length": 11,
+          "initial_length_source": "result.episodes.initial_length",
+          "elapsed_seconds": 754.59,
+          "elapsed_source": "result.episodes.seconds",
+          "score": 2585,
+          "score_source": "result.episodes.stats.final_length",
+          "score_gain": 2574,
+          "score_per_minute": 204.667,
+          "max_length": 2587,
+          "best_rank": 12,
+          "kills": 2,
+          "milestones": {
+            "100": {
+              "reached": true,
+              "target_seconds": 60,
+              "first_observed_seconds": 28.537,
+              "target_met_as_observed": true
+            },
+            "1000": {
+              "reached": true,
+              "target_seconds": 180,
+              "first_observed_seconds": 266.23,
+              "target_met_as_observed": false
+            },
+            "5000": {
+              "reached": false,
+              "target_seconds": 600,
+              "first_observed_seconds": null,
+              "target_met_as_observed": false
+            },
+            "10000": {
+              "reached": false,
+              "target_seconds": 900,
+              "first_observed_seconds": null,
+              "target_met_as_observed": false
+            }
+          },
+          "first_verified_top10_seconds": null,
+          "notes": [
+            "Milestones and Top 10 use the first confirming observation on the run clock; actual crossings may occur between samples."
+          ]
+        }
+      ]
+    }
+  ]
+}
